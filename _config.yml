@@ -1,6 +1,6 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+favicon: "images:favicon.ico"
 
 # Content configuration version
 version: 2
@@ -29,7 +29,7 @@ about_title: '자기소개'
 about_profile_image: "images:profile.png"
 about_content: | # this will include new lines to allow paragraphs
     '안녕하세요. <mark>풀스택개발자</mark> 원중의 블로그입니다😸 찾아주셔서 감사합니다!🙌🙌
-    저에 대해서는 차차 작성예정입니다요.''
+    저에 대해서는 차차 작성예정입니다요.'
 
 content:
   - title: '프로젝트'
