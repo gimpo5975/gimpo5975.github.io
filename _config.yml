@@ -1,0 +1,113 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 박세환
+title: Junior Backend Developer
+email: gehwan96@gmail.com
+website: www.github.com/Gelloger
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  Gelloger
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-blog
+  url: https://velog.io/@gehwan96
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+    안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다. 신기술과 최신 트렌드에 관심이 많고 새로운 기술을 배우는 것을 좋아합니다.
+    Open Source에 관심이 많고, 개발자들의 생산성을 높이는 것에 관심이 많습니다.
+    
+    주 스킬은 <mark>Spring Boot</mark>이며, <mark>Java</mark>를 사용하고 있습니다.
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: NHN CLOUD
+        link: www.nhncloud.com/kr
+        sub_title: Junior Backend Developer
+        caption: 2022.02 ~ 현재
+        description: | # this will include new lines to allow paragraphs
+          Email 서비스를 운영하고 개선해나가고 있습니다. <br><br>
+          기술 스택
+            - <mark>Spring Boot</mark>,<mark>nginx</mark>,<mark>Rabbitmq</mark>,<mark>Junit5</mark>, 
+            - <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
+            - <mark>Mybatis</mark>, <mark>MySQL</mark>, <mark>Git</mark>
+
+      - title: LG CNS
+        link: https://www.lgcns.com/
+        sub_title: Junior Backend Developer
+        caption: 2021.01. ~ 2022.01
+        description: | # this will include new lines to allow paragraphs
+          LG Uplus 서비스 Ucube 시스템의 단말기 판매 기능을 개발하였습니다.<br><br>
+          기술 스택
+            - <mark>Spring Boot</mark>, <mark>JPA</mark>
+  - title: Experience # Title for the section
+    layout: list # Layout for the section
+    content:
+      - layout: left
+        title: Test Using Junit5
+        sub_title: Migration & Refactoring
+        caption: 2022.10.25 ~ 현재
+        description: | # this will include new lines to allow paragraphs
+          서비스에 존재하는 모든 테스트 코드를 Junit5로 마이그레이션 하였습니다. 단순 마이그레이션으로는 junit5 기능을 효과적으로 사용할 수 없기 때문에 리팩토링을 진행하고 있습니다.
+          장기적으로는 통합 테스트와 단위 테스트의 기준점을 만들어 팀 내 표준이 되는 것을 목표로 진행하고 있습니다.
+      - title: Convert Jenkins Build
+        sub_title: Using MultiBranch Pipeline(Docker)
+        caption: 2022.10 ~ 2022.11
+        description: | # this will include new lines to allow paragraphs
+          기존의 Jenkins는 동시에 빌드할 수 있는 숫자가 최대 3개였기에 빌드 속도가 느려지는 문제가 있었습니다. 해당 부분을 개선하고자 기존에 사용하던 Jenkins를 Docker를 이용한 Multi-Branch Pipeline으로 전환하였습니다.
+      - title: Test Automation
+        sub_title: 테이블 자동삭제 및 증적자료 저장 기능 개발
+        caption: 2022.09 ~ 2022.10
+        description: | # this will include new lines to allow paragraphs
+          기존에는 대량의 데이터를 저장하고 있었기 때문에 서비스의 성능에 영향을 미쳐 DBA분과 협업하여 수동 삭제로 진행하던 테이블 삭제를 자동으로 진행할 수 있도록 개발하였습니다.
+          또한, 테이블 삭제 시 증적자료를 저장할 수 있도록 개발하였습니다. 반복했던 작업을 자동화하여 담당자의 생산성을 높일 수 있었습니다.
+      - title: Improving Nginx
+        sub_title: Nginx를 이용한 서비스 품질 개선
+        caption: 2022.06. ~ 2022.08
+        description: | # this will include new lines to allow paragraphs
+          기존 nginx를 개선하여 다음의 문제들을 해결하였습니다.
+          - nginx exporter 설정을 통한 prometheus 메트릭 수집기능 개선
+          - Reverse Proxy 설정을 통한 서비스의 보안성 개선
+          - 미사용중인 HTTP METHOD Blocking을 통한 보안성 개선
+          - nginx의 access_log 분리를 통한 로그 관리 개선
+      - title: Condition Checker Autoconfiguration
+        sub_title: Autoconfiguration을 이용한 starter 개발
+        caption: 2022.04. ~ 2022.07
+        description: | # this will include new lines to allow paragraphs
+          외부시스템 연결 상태를 확인하는 사내 오픈소스 `Condition Checker`의 Autoconfiguration 기능을 개발하였습니다.
+          Autoconfiguration 기능을 통해 (Mysql, Mongodb, Redis, Rabbitmq)에 대한 연결상태를 dependency 등록만으로도 상태 체크를 할 수 있도록 개선하였습니다.
+      - title: LG Uplus Ucube System
+        sub_title: 단말기 판매 기능 개발
+        caption: 2021.06. ~ 2022.01
+        description: | # this will include new lines to allow paragraphs
+          통신사 신규가입 인원을 대상으로 단말기를 판매하는 기능을 개발하였습니다. 메인 기능에 대한 개발을 진행했으며 Sequence Diagram 및 테스트 코드를 작성하였습니다.
+          모든 업무가 끝난 뒤 중복되는 로직 및 가독성이 떨어지는 코드를 리팩토링하여 코드의 가독성을 높였습니다.`
+## Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
