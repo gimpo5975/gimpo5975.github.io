@@ -48,7 +48,7 @@ content:
         
         description: | # this will include new lines to allow paragraphs
         '<mark>HTML</mark>,<mark>CSS</mark>,<mark>JavaScript</mark>를 이용한 간단한 가위바위보 게임입니다.'
-
+  
   - title: '직무경험' # Title for the section
     layout: list # Layout for the section
     content:
