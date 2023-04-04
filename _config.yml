@@ -44,10 +44,10 @@ content:
 
       - title: ROCK-SCISSORS-PAPER
         link: https://github.com/gimpo5975/ROCK-SCISSORS-PAPER.git
-        sub_title: ROCK-SCISSORS-PAPER 접속하기👈
+        link_text: ROCK-SCISSORS-PAPER 접속하기👈
         
         description: | # this will include new lines to allow paragraphs
-        <mark>HTML</mark>,<mark>CSS</mark>,<mark>JavaScript</mark>를 이용한 간단한 가위바위보 게임입니다.🤡🤡
+        <mark>HTML</mark>,<mark>CSS</mark>,<mark>JavaScript</mark>를 이용한 간단한 가위바위보 게임입니다.
 
   - title: 직무경험 # Title for the section
     layout: list # Layout for the section
