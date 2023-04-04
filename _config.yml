@@ -6,8 +6,8 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: 일하는중,원중
-title: 풀스택 개발자
+name: '일하는중,원중'
+title: '풀스택 개발자'
 email: gimpo5975@naver.com
 phone: 010-9313-5975
 website: https://github.com/gimpo5975
@@ -25,61 +25,61 @@ additional_links:
   url: https://velog.io/@gehwan96
 
 # About Section
-about_title: 자기소개
+about_title: '자기소개'
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-    안녕하세요. <mark>풀스택개발자</mark> 원중의 블로그입니다😸 찾아주셔서 감사합니다!🙌🙌
-    저에 대해서는 차차 작성예정입니다요.
+    '안녕하세요. <mark>풀스택개발자</mark> 원중의 블로그입니다😸 찾아주셔서 감사합니다!🙌🙌
+    저에 대해서는 차차 작성예정입니다요.''
 
 content:
-  - title: 프로젝트
+  - title: '프로젝트'
     layout: list
     content:
       - layout: left
         title: MYSHOP
         link: https://github.com/gimpo5975/MyShop-practice.git
-        link_text: MYSHOP 접속하기👈
+        link_text: 'MYSHOP 접속하기👈'
         description: | # this will include new lines to allow paragraphs
-          기존에 존재하는 쇼핑몰을 마킹해서 연습용으로 제작한 "MYSHOP"이라는 쇼핑몰입니다😎
+          '기존에 존재하는 쇼핑몰을 마킹해서 연습용으로 제작한 "MYSHOP"이라는 쇼핑몰입니다😎'
 
       - title: ROCK-SCISSORS-PAPER
         link: https://github.com/gimpo5975/ROCK-SCISSORS-PAPER.git
-        link_text: ROCK-SCISSORS-PAPER 접속하기👈
+        link_text: 'ROCK-SCISSORS-PAPER 접속하기👈'
         
         description: | # this will include new lines to allow paragraphs
-        <mark>HTML</mark>,<mark>CSS</mark>,<mark>JavaScript</mark>를 이용한 간단한 가위바위보 게임입니다.
+        '<mark>HTML</mark>,<mark>CSS</mark>,<mark>JavaScript</mark>를 이용한 간단한 가위바위보 게임입니다.'
 
-  - title: 직무경험 # Title for the section
+  - title: '직무경험' # Title for the section
     layout: list # Layout for the section
     content:
       - layout: left
-        title: 말표산업
-        sub_title: 생산관리
+        title: '말표산업'
+        sub_title: '생산관리'
         caption: 2022.10~2022.12
         description: | # this will include new lines to allow paragraphs
-          졸업학기에 직무경험을 해보고싶어서 취업계로 말표산업에 생산관리 직무로 근무했습니다.
-         근무기간동안 광택제, 구두약 등 제품들을 생산하는 과정속에서 인력관리 제품 생산기한 조정 등 짧은 기간에 다양한 경험을 할 수 있었습니다.
+          '졸업학기에 직무경험을 해보고싶어서 취업계로 말표산업에 생산관리 직무로 근무했습니다.
+         근무기간동안 광택제, 구두약 등 제품들을 생산하는 과정속에서 인력관리 제품 생산기한 조정 등 짧은 기간에 다양한 경험을 할 수 있었습니다.''
 
- - title: 교육경험
+ - title: '교육경험'
     layout: list
     content:
       - layout: right
-        title: 김포대학교
-        sub_title: 정보통신
+        title: '김포대학교'
+        sub_title: '정보통신'
         caption: 2020~2023
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-         정보화 사회에서 필요한 통신기술, 정보통신 관련 장비의 설비 및 운영능력과 유지보수 능력을 배웠습니다.<br><br>
-         학습과목
+         '정보화 사회에서 필요한 통신기술, 정보통신 관련 장비의 설비 및 운영능력과 유지보수 능력을 배웠습니다.<br><br>
+         학습과목'
          - <mark>회로 이론</mark>,<mark>C언어</mark>,<mark>이동단말 프로그래밍</mark>,<mark>RFID</mark>, 
          - <mark>캡스톤디자인</mark>,<mark>정보능력프로그래밍</mark>,<mark>전자기학</mark>,<mark>PC시뮬레이션</mark>
-    - title: 이젠아카데미
-      sub_title: 자바 웹풀스택과정
+    - title: '이젠아카데미'
+      sub_title: '자바 웹풀스택과정'
       caption: 2023.01~2023.07
       description: | # this will include new lines to allow paragraphs
-        풀스택과정을 수료하면서 프론트,백 엔드 웹개발 프로젝트 진행<br><br>
-        학습내용
+        '풀스택과정을 수료하면서 프론트,백 엔드 웹개발 프로젝트 진행<br><br>
+        학습내용'
         - <mark>HTML</mark>,<mark>JavaScript</mark>,<mark>CSS</mark>,<mark>MYSQL</mark>, <mark>JAVA</mark>
       
 ## Footer
