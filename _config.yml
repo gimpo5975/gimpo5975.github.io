@@ -6,16 +6,17 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: 박세환
-title: Junior Backend Developer
-email: gehwan96@gmail.com
-website: www.github.com/Gelloger
+name: 일하는중,원중
+title: 풀스택 개발자
+email: gimpo5975@naver.com
+phone: 010-9313-5975
+website: https://github.com/gimpo5975
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-github_username:  Gelloger
+github_username:  gimpo5975
 
 # Additional icon links
 additional_links:
@@ -24,29 +25,22 @@ additional_links:
   url: https://velog.io/@gehwan96
 
 # About Section
-# about_title: About Me
+about_title: 자기소개
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-    안녕하세요. 백엔드 개발자로 일하고 있는 박세환입니다. 신기술과 최신 트렌드에 관심이 많고 새로운 기술을 배우는 것을 좋아합니다.
-    Open Source에 관심이 많고, 개발자들의 생산성을 높이는 것에 관심이 많습니다.
-    
-    주 스킬은 <mark>Spring Boot</mark>이며, <mark>Java</mark>를 사용하고 있습니다.
+    안녕하세요. <mark>풀스택개발자</mark> 원중의 블로그입니다😸 찾아주셔서 감사합니다!🙌🙌
+    저에 대해서는 차차 작성예정입니다요.
 
 content:
-  - title: Projects
+  - title: 프로젝트
     layout: list
     content:
       - layout: left
-        title: NHN CLOUD
-        link: www.nhncloud.com/kr
-        sub_title: Junior Backend Developer
-        caption: 2022.02 ~ 현재
+        title: MYSHOP
+        link: https://github.com/gimpo5975/MyShop-practice.git
+        link_text: MYSHOP 접속하기👈
         description: | # this will include new lines to allow paragraphs
-          Email 서비스를 운영하고 개선해나가고 있습니다. <br><br>
-          기술 스택
-            - <mark>Spring Boot</mark>,<mark>nginx</mark>,<mark>Rabbitmq</mark>,<mark>Junit5</mark>, 
-            - <mark>Jenkins</mark>, <mark>Sonarqube</mark>, <mark>Grafana</mark>
-            - <mark>Mybatis</mark>, <mark>MySQL</mark>, <mark>Git</mark>
+          기존에 존재하는 쇼핑몰을 마킹해서 연습용으로 제작한 "MYSHOP"이라는 쇼핑몰입니다😎
 
       - title: LG CNS
         link: https://www.lgcns.com/
