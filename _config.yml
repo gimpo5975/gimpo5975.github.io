@@ -60,38 +60,27 @@ content:
           졸업학기에 직무경험을 해보고싶어서 취업계로 말표산업에 생산관리 직무로 근무했습니다.
          근무기간동안 광택제, 구두약 등 제품들을 생산하는 과정속에서 인력관리 제품 생산기한 조정 등 짧은 기간에 다양한 경험을 할 수 있었습니다.
 
-      # - title: Convert Jenkins Build
-      #   sub_title: Using MultiBranch Pipeline(Docker)
-      #   caption: 2022.10 ~ 2022.11
-      #   description: | # this will include new lines to allow paragraphs
-      #     기존의 Jenkins는 동시에 빌드할 수 있는 숫자가 최대 3개였기에 빌드 속도가 느려지는 문제가 있었습니다. 해당 부분을 개선하고자 기존에 사용하던 Jenkins를 Docker를 이용한 Multi-Branch Pipeline으로 전환하였습니다.
-      # - title: Test Automation
-      #   sub_title: 테이블 자동삭제 및 증적자료 저장 기능 개발
-      #   caption: 2022.09 ~ 2022.10
-      #   description: | # this will include new lines to allow paragraphs
-      #     기존에는 대량의 데이터를 저장하고 있었기 때문에 서비스의 성능에 영향을 미쳐 DBA분과 협업하여 수동 삭제로 진행하던 테이블 삭제를 자동으로 진행할 수 있도록 개발하였습니다.
-      #     또한, 테이블 삭제 시 증적자료를 저장할 수 있도록 개발하였습니다. 반복했던 작업을 자동화하여 담당자의 생산성을 높일 수 있었습니다.
-      # - title: Improving Nginx
-      #   sub_title: Nginx를 이용한 서비스 품질 개선
-      #   caption: 2022.06. ~ 2022.08
-      #   description: | # this will include new lines to allow paragraphs
-      #     기존 nginx를 개선하여 다음의 문제들을 해결하였습니다.
-      #     - nginx exporter 설정을 통한 prometheus 메트릭 수집기능 개선
-      #     - Reverse Proxy 설정을 통한 서비스의 보안성 개선
-      #     - 미사용중인 HTTP METHOD Blocking을 통한 보안성 개선
-      #     - nginx의 access_log 분리를 통한 로그 관리 개선
-      # - title: Condition Checker Autoconfiguration
-      #   sub_title: Autoconfiguration을 이용한 starter 개발
-      #   caption: 2022.04. ~ 2022.07
-      #   description: | # this will include new lines to allow paragraphs
-      #     외부시스템 연결 상태를 확인하는 사내 오픈소스 `Condition Checker`의 Autoconfiguration 기능을 개발하였습니다.
-      #     Autoconfiguration 기능을 통해 (Mysql, Mongodb, Redis, Rabbitmq)에 대한 연결상태를 dependency 등록만으로도 상태 체크를 할 수 있도록 개선하였습니다.
-      # - title: LG Uplus Ucube System
-      #   sub_title: 단말기 판매 기능 개발
-      #   caption: 2021.06. ~ 2022.01
-      #   description: | # this will include new lines to allow paragraphs
-      #     통신사 신규가입 인원을 대상으로 단말기를 판매하는 기능을 개발하였습니다. 메인 기능에 대한 개발을 진행했으며 Sequence Diagram 및 테스트 코드를 작성하였습니다.
-      #     모든 업무가 끝난 뒤 중복되는 로직 및 가독성이 떨어지는 코드를 리팩토링하여 코드의 가독성을 높였습니다.`
+ - title: 교육경험
+    layout: list
+    content:
+      - layout: right
+        title: 김포대학교
+        sub_title: 정보통신
+        caption: 2020~2023
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+         정보화 사회에서 필요한 통신기술, 정보통신 관련 장비의 설비 및 운영능력과 유지보수 능력을 배웠습니다.<br><br>
+         학습과목
+         - <mark>회로 이론</mark>,<mark>C언어</mark>,<mark>이동단말 프로그래밍</mark>,<mark>RFID</mark>, 
+         - <mark>캡스톤디자인</mark>,<mark>정보능력프로그래밍</mark>,<mark>전자기학</mark>,<mark>PC시뮬레이션</mark>
+    - title: 이젠아카데미
+      sub_title: 자바 웹풀스택과정
+      caption: 2023.01~2023.07
+      description: | # this will include new lines to allow paragraphs
+        풀스택과정을 수료하면서 프론트,백 엔드 웹개발 프로젝트 진행<br><br>
+        학습내용
+        - <mark>HTML</mark>,<mark>JavaScript</mark>,<mark>CSS</mark>,<mark>MYSQL</mark>, <mark>JAVA</mark>
       
 ## Footer
 footer_show_references: true
